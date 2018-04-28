@@ -1,0 +1,382 @@
+body {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+ html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+#top
+{
+  color:#616A6B;
+  margin-left: 2.9cm;
+  margin-top:3cm;
+  font-size: 70%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#thyme{
+	color: #BE9A5C;
+	margin-left: 9cm;
+	font-family:"Arial", "Helvetica", sans-serif;
+	letter-spacing: 8px;
+	font-size: 32pt;
+	padding-top: 0px;
+	margin-top: 0px;
+	font-weight: 100;
+}
+
+hr
+{
+	display: block;
+	border:0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+
+div.scrollbar{
+
+	overflow: hidden;
+	white-space: nowrap;
+	margin-left:3.2cm;
+	margin-top:-0.5cm;
+}
+
+.scrollbar a{
+	display: inline-block;
+	padding-right: 2.5cm;
+	padding-bottom:0.1cm;
+	font-size: 6pt;
+		text-align:center;
+	color: black;
+	text-decoration: none;
+}
+
+.headerorange{
+	font-size: 9pt;
+	color:#BE9A5C;
+}
+
+#header{
+	font-size: 9pt;
+	color:#616A6B;
+}
+
+#right{
+	height: 500px;
+}
+
+.scrollbar a:hover{
+	color: #BE9A5C;
+
+}
+#first{
+	
+	height: 500px;
+	overflow: hidden;
+	margin-top:-0.3cm;
+
+}
+
+.one
+{
+	width: 1447px;
+	 height: 500px; 
+	 margin-top: -2.2cm;
+	  background-image: url("http://cs-server.usc.edu:45678/hw/hw3/images/image6.jpg");
+
+    /* Create the parallax scrolling effect */
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+     background-repeat: no-repeat;
+    background-size: 1400px;   
+    margin-left: -15cm;
+    background-position:fixed;
+    padding-left: 0px;
+    background-position: -260px 52px;
+
+
+
+}
+
+#right{
+	margin-top: -2cm;
+}
+
+.img1{
+
+	width: 100%;
+	margin-top:0.3cm;
+	  clip: rect(0px, 200px, 10000px, 200px);
+	  resize: both;
+	  height: 500px;
+}
+
+#restaurant{
+	color:#616A6B;
+	margin-left: 12.5cm;
+	font-size: 8pt;
+	letter-spacing: 1px;
+	margin-top:2cm;
+}
+
+#cuisine{
+	font-style: italic;
+	margin-left: 12.5cm;
+	font-size: 18pt;
+	margin-top:1cm;
+	color: #BE9A5C;
+	font-style: sans-serif;
+	text-shadow: 0.5px 0.5px #BE9A5C;
+}
+
+#cuisineone{
+	margin-top: -10cm;
+	font-style: italic;
+	margin-left: 12.5cm;
+	font-size: 18pt;
+	color: #BE9A5C;
+	font-style:sans-serif;
+	text-shadow: 0.5px 0.5px #BE9A5C;
+	}
+
+#pineapples{
+	margin-left:12cm;
+	text-decoration: none;
+	font-size: 8pt;
+	font-family:"Helvetica", sans-serif;
+	font-style:bold;
+	color: #616A6B;
+}
+
+.second{
+	margin-top: -11.3cm;
+	margin-left: 0.7cm;
+	top: 100px;
+	transform: scale(0.8);
+
+}
+.two{
+	margin-top: -1cm;
+}
+
+.three{
+	margin-top:3.5cm;
+}
+
+.third{
+	margin-top: -6cm;
+		margin-left: 0.7cm;
+		transform: scale(0.8);
+}
+
+.four{
+	margin-top: 0.6cm;
+	margin-left:3.5cm;
+	
+}
+
+
+
+.fourth{
+	margin-left: 7.6cm;
+	margin-top:-14cm;
+	transform: scale(0.8);
+}
+
+.fifth{
+	margin-top:-5.2cm;
+	margin-left:12.3cm;
+	width:40.5%;
+	zoom:100%;
+}
+
+#island{
+	margin-top: -3cm;
+	font-style: italic;
+	margin-left: 2cm;
+	font-size: 18pt;
+	color: #BE9A5C;
+	font-style:sans-serif;
+	text-shadow: 0.5px 0.5px #BE9A5C;
+}
+
+.text1{
+	margin-top: -4cm;
+}
+
+#islandone{
+
+	font-style: italic;
+	margin-left: 2cm;
+	font-size: 18pt;
+	color: #BE9A5C;
+	font-style: sans-serif;
+	text-shadow: 0.5px 0.5px #BE9A5C;
+}
+
+.gluten{
+	margin-left:1.3cm;
+	text-decoration: none;
+	font-size:8pt;
+	color: #616A6B;
+	font-family:"Helvetica",sans-serif;
+}
+
+.read
+{
+	text-decoration: none;
+}
+
+.seventh{
+	zoom:80%;
+	margin-left: 1.7cm;
+	width:760px;
+}
+
+.padded-multiline{
+	padding:10px;
+	margin:0px
+	border-top:2cm;
+	font-size: 10px;
+	letter-spacing: 1px;
+	color:#616A6B;
+	margin-top:0.6cm;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, sans-serif;
+
+}
+
+div.text{
+	position:absolute; /* absolute position (so we can position it where we want)*/
+	bottom:170px; /* position will be on bottom */
+	left:280px;
+	width:40%;
+	height: 3cm;
+	/* styling bellow */
+	background-color:white;
+	color:black;
+	filter:alpha(opacity=60); /* IE transparency */
+}
+
+.online{
+	font-size: 28px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif	
+	font-weight:bold;
+	margin-bottom: 3cm;
+}
+
+
+div.container{
+	float:left; /* important */
+	position:relative; /* important(so we can absolutely position the description div */
+}
+
+#url{
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+margin-left: 10.5cm;
+margin-top: 13cm;
+color:#616A6B;
+font-size: 9pt;
+}
+
+.quote{
+ font-style: italic;
+ color: #BE9A5C;
+ margin-left: 1.3cm;
+ font-size:24pt;
+ margin-top:0.1cm;
+ font-style:bold;
+ text-shadow: 0.5px 0.5px #BE9A5C;
+}
+
+.quote1{
+	font-style: italic;
+ color: #BE9A5C;
+ margin-left: 1.9cm;
+ font-size:24pt;
+ margin-top:-0.9cm;
+text-shadow: 0.5px 0.5px #BE9A5C;
+
+}
+
+
+.qmiddle{
+	font-style: italic;
+	color:#BE9A5C;
+	margin-left:7.7cm;
+	font-size: 24pt;
+	margin-top:-0.9cm;
+	text-shadow: 0.5px 0.5px #BE9A5C;
+}
+#bkcolor{
+	background-color: #D4AC0D;
+}
+
+.sixth{
+	width:900px;
+	position: absolute;
+		   margin-top:1cm;
+
+	background-image: url("http://cs-server.usc.edu:45678/hw/hw3/images/image5.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -0.5cm;
+    background-position:fixed;
+}
+
+.banner{
+	margin-top: 8.9cm;
+	width:920px;
+	height: 200px;
+	background-color: #BE9A5C;
+	background-size: 1400px;
+	margin-left: -1cm;
+}
+
+#bannertext{
+	margin-top: 14.7cm;
+	margin-left: 16cm;
+	color:white;
+	font-size: 10pt;
+}
+
+
+.text a:hover{
+	color: #D0D3D4;
+}
+
+
+.readmore{
+	text-decoration:none; color:black; font-style: bold;
+}
+
+.gluten a:hover{
+	color:#D0D3D4; 
+}
+
+.readmore1{
+	text-decoration:none; 
+	color:black;
+}
+
+#pineapples a:hover{
+	color:#D0D3D4;
+}
+
+.online{
+	text-decoration: none; 
+	color: #616A6B;
+}
